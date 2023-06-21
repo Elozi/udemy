@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>3D TRANSFORM</title>
+    <style>
+        .bluebox {
+            background-color: blue;
+            color: white;
+            height: 100px;
+            width: 100px;
+            transition: width 1s;
+            
+            
+        }
+        .bluebox:hover{
+            width: 300px;
+        }
+
+        .yellowbox {
+            background-color: black;
+            color: azure;
+            height: 100px;
+        }
+
+        .chatterbox {
+            background-color: blueviolet;
+            color: black;
+            height: 100px;
+            transition: width 1s, height 1s, transform 1s;
+        
+        }
+        .chatterbox:hover{
+            width: 300px;
+            height: 200px;
+            background-color: green;
+            transform: rotateX(180deg);
+        }
+
+        .yellow {
+            background-color: brown;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bluebox">
+        <p>Facebook </p>
+    </div>
+    <div class="yellowbox">
+        <p>Apple </p>
+    </div>
+    <div class="chatterbox">
+        <p>Mac </p>
+    </div>
+
+
+</body>
+
+
+</html>
